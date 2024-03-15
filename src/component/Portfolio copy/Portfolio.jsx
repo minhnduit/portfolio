@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Portfolio.css"
-import petPrjDatas from '../../petProjectData.js';
+import petPrjDatas from '../../portfolioData.js';
 
 
 const portfolio = () => {

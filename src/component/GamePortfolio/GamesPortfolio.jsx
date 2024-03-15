@@ -1,9 +1,9 @@
 import React from 'react';
 import "./Portfolio.css"
-import petPrjDatas from '../../petProjectData.js';
+import petPrjDatas from '../../gameProjectData.js';
 
 
-const portfolio = () => {
+const GamesPortfolio = () => {
   return (
     <section id='portfolio'>
       <h2>Others pet projects</h2>
@@ -30,4 +30,4 @@ const portfolio = () => {
   )
 }
 
-export default portfolio;
+export default GamesPortfolio;

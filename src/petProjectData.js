@@ -4,7 +4,7 @@ import IMG3 from '../src/assets/music1.png'
 import IMG4 from '../src/assets/keeper1.png'
 import IMG5 from '../src/assets/note1.png'
 
-const datas = [
+const petPrjDatas = [
     {
         id: 1,
         image: IMG1,
@@ -38,8 +38,9 @@ const datas = [
         image: IMG5,
         title: 'To do list App using NodeJS and ExpressJS',
         github: 'https://github.com/minhnduit/note-nodejs',
-        demo: 'https://to-dolist-nodejs.herokuapp.com/Work'
+        demo: 'https://to-dolist-nodejs.herokuapp.com/Work',
+        video: 'youtube.com'
     }
 ]
 
-export default datas;
+export default petPrjDatas;

@@ -7,17 +7,19 @@ import Experience from "./Experience/Experience.jsx";
 import Nav from "./Nav/Nav.jsx";
 import Portfolio from "./Portfolio/Portfolio.jsx";
 import Career from "./Career/Career.jsx";
+import GamesPortfolio from './GamePortfolio/GamesPortfolio.jsx';
 
 function App() {
     return (<div>
-    <Header />
-    <Nav />
-    <About />
-    <Experience />
-    <Portfolio />
-    <Career />
-    <Contact />
-    <Footer />
+        <Header />
+        <Nav />
+        <About />
+        <GamesPortfolio />
+        <Portfolio />
+        <Experience />
+        <Career />
+        {/* <Contact /> */}
+        <Footer />
     </div>)
 }
 
