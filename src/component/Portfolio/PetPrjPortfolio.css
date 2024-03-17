@@ -18,6 +18,8 @@
 .portfolio_item-image {
     border-radius: 1.5rem;
     overflow: hidden;
+    width: auto;
+    height: 100px;
 }
 .portfolio_item h3 {
     margin: 1.2rem 0 2rem;

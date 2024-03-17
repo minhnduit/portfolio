@@ -1,12 +1,12 @@
 import React from 'react';
-import "./PetPrjPortfolio.css"
-import petPrjDatas from '../../petProjectData.js';
+import "./MidcorePortfolio.css"
+import petPrjDatas from '../../midcoreGameProjectData.js';
 
 
-const portfolio = () => {
+const MidcoreGamesPortfolio = () => {
   return (
     <section id='portfolio'>
-      <h2>Others pet projects</h2>
+      <h2>Mid-core Games</h2>
 
       <div className="container portfolio_container">
         {
@@ -30,4 +30,4 @@ const portfolio = () => {
   )
 }
 
-export default portfolio;
+export default MidcoreGamesPortfolio;

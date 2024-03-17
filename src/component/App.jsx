@@ -8,6 +8,7 @@ import Nav from "./Nav/Nav.jsx";
 import Portfolio from "./Portfolio/Portfolio.jsx";
 import Career from "./Career/Career.jsx";
 import GamesPortfolio from './GamePortfolio/GamesPortfolio.jsx';
+import MidcoreGamesPortfolio from './MidcoreGamePortfolio/MidcoreGamesPortfolio.jsx';
 
 function App() {
     return (<div>
@@ -15,10 +16,10 @@ function App() {
         <Nav />
         <About />
         <GamesPortfolio />
+        <MidcoreGamesPortfolio />
         <Portfolio />
         <Experience />
         <Career />
-        {/* <Contact /> */}
         <Footer />
     </div>)
 }

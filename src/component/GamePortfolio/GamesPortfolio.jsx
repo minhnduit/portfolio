@@ -6,7 +6,7 @@ import petPrjDatas from '../../gameProjectData.js';
 const GamesPortfolio = () => {
   return (
     <section id='portfolio'>
-      <h2>Others pet projects</h2>
+      <h2>Hyper-casual Games</h2>
 
       <div className="container portfolio_container">
         {
@@ -18,8 +18,8 @@ const GamesPortfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio_item-cta">
-                  <a href={github} className='btn' rel="noreferrer" target='_blank'>Github</a>
-                  <a href={demo} className='btn btn-primary' rel="noreferrer" target='_blank'>Live Demo</a>
+                  {github && <a href={github} className='btn' rel="noreferrer" target='_blank'>Github</a>}
+                  {demo && <a href={demo} className='btn btn-primary' rel="noreferrer" target='_blank'>Live Demo</a>}
                   {video && <a href={video} className='btn btn-primary' rel="noreferrer" target='_blank'>Watch Video</a>}
                 </div>
               </article>)
