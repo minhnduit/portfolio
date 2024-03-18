@@ -15,13 +15,13 @@ const gameProjectData = [
     id: 1,
     image: IMG1,
     title: "Betakkuma",
-    demo: getGameLink("Betakkuma"),
+    demo: "https://kantan.game/lightgame/game/483?fbclid=IwAR2zrPQBo4kvNSLIy6V_8V5bx738r97XbUKdoAx9izR3L30jUtUnV6ZQUqs"
   },
   {
     id: 2,
     image: IMG2,
     title: "FireFireFire",
-    demo: getGameLink("FireFireFire"),
+    demo: "https://kantan.game/lightgame/game/489?fbclid=IwAR3PgfCElJqoUdXNhEcFT3rgReR1oYqSW1xUhaX0NszgUtke0mPCXlS0_Rw",
   },
   {
     id: 3,
