@@ -46,7 +46,7 @@
 @media screen and (max-width: 1024px) {
     .experience_container {
         grid-template-columns: 1fr;
-        max-width: 40%;
+        max-width: 70%;
     }
 
     .experience_container>div {
@@ -56,7 +56,9 @@
     }
 
     .experience_content {
-        padding: 1rem;
+        padding: 1re;
+        grid-template-columns: 1fr;
+         margin-left: 5rem;
     }
 
     .experience_container>div {
